@@ -182,9 +182,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
 
+
+
 #header h2 span {
   color: #ffc107;
-  border-bottom: 2px solid #1c7d32;
   padding-bottom: 6px;
 }
 
@@ -225,8 +226,13 @@ h1, h2, h3, h4, h5, h6 {
 
 #header .social-links {
   margin-top: 40px;
+  
   display: flex;
+  justify-content: center;  /* Center horizontally */
+  align-items: center;      /* Center vertically (if needed) */
+  gap: 10px;                /* Optional spacing between icons */
 }
+
 
 #header .social-links a {
   font-size: 16px;
@@ -351,7 +357,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #9e7f25;
+  display: none !important;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -549,7 +555,7 @@ section .container {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #dee2e6;
+  display: none !important;
   margin: 4px 10px;
 }
 
